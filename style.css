@@ -1,3 +1,97 @@
-body {
-  background: green;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: aquamarine;
+  font-size: 20px;
+  overflow: auto;
+}
+
+li {
+  width: 120px;
+  list-style: none;
+  text-align: center;
+  float: right;
+}
+
+li:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.side {
+  width: 400px;
+  padding-top: 4px;
+  break-inside: avoid;
+}
+
+.side-content1 {
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 3px #000;
+  background-color: aquamarine;
+}
+
+.side-content2 {
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 3px #000;
+  background-color: aquamarine;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  color: #000;
+}
+
+.voice {
+  text-align: left;
+}
+
+main,.ken {
+  column-count: 2;
+}
+
+h2.maincast {
+  text-align: right;
+}
+
+.itoh {
+  height: 600px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.floatclear {
+  text-align: left;
+}
+
+.robotmedia {
+  width: 400px;
+}
+
+footer {
+  text-align: right;
+  background-color: aquamarine;
+  color: white;
+}
+
+small {
+  color: #000;
 }
