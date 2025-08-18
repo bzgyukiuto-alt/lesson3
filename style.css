@@ -9,6 +9,11 @@ header {
   overflow: auto;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
 li {
   width: 120px;
   list-style: none;
@@ -23,18 +28,12 @@ li:hover {
 
 .side {
   width: 400px;
+  margin: 0 auto;
   padding-top: 4px;
   break-inside: avoid;
 }
 
-.side-content1 {
-  margin: 2em 0;
-  font-weight: bold;
-  border: solid 3px #000;
-  background-color: aquamarine;
-}
-
-.side-content2 {
+.side-content {
   margin: 2em 0;
   font-weight: bold;
   border: solid 3px #000;
@@ -69,7 +68,7 @@ main,.ken {
 }
 
 h2.maincast {
-  text-align: right;
+  text-align: center;
 }
 
 .itoh {
@@ -84,6 +83,11 @@ h2.maincast {
 
 .robotmedia {
   width: 400px;
+  margin: 0 auto;
+}
+
+.robotmedia>img {
+  width: 100%;
 }
 
 footer {
