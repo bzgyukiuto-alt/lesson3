@@ -35,10 +35,10 @@ li:hover {
 
 .side-content {
   margin: 1em 0;
-  /* font-weight: bold; */
   border: solid 1px #000;
   background-color: aquamarine;
   width: 400px;
+  display: flex;
 }
 
 h1 {
@@ -48,12 +48,13 @@ h1 {
 
 h2 {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
-  text-align: center;
+  text-align: center
 }
+
 
 p {
   text-align: left;
@@ -99,6 +100,7 @@ h2.maincast {
 
 .floatclear {
   text-align: center;
+  display: flex;
 }
 
 .robotmedia {
