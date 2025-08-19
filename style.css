@@ -52,9 +52,9 @@ h2 {
 }
 
 h3 {
-  text-align: center
+  text-align: center;
+  padding: 16%;
 }
-
 
 p {
   text-align: left;
@@ -96,6 +96,8 @@ h2.maincast {
 
 .float {
   display: inline-block;
+  width: 40%;
+  height: 40%;
 }
 
 .floatclear {
@@ -120,4 +122,9 @@ footer {
 
 small {
   color: #000;
+}
+
+.senden {
+  text-align: center;
+  padding-bottom: 8px;
 }
