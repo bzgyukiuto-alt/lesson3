@@ -38,11 +38,11 @@ li:hover {
   /* font-weight: bold; */
   border: solid 1px #000;
   background-color: aquamarine;
-  width: 500px;
+  width: 400px;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -67,16 +67,20 @@ p {
 .prologue {
   position: relative;
   width: 300px;
+  display: block;
 }
 
 .poster {
   width: 100%;
   height: 100%;
-  display: block;
 }
 
 main,.ken {
   column-count: 2;
+}
+
+main {
+  background-color: antiquewhite;
 }
 
 h2.maincast {
@@ -84,9 +88,13 @@ h2.maincast {
 }
 
 .itoh {
-  height: 600px;
-  width: 400px;
+  height: 500px;
+  width: 300px;
   margin: 0 auto;
+}
+
+.float {
+  display: inline-block;
 }
 
 .floatclear {
@@ -94,7 +102,7 @@ h2.maincast {
 }
 
 .robotmedia {
-  width: 500px;
+  width: 400px;
   margin: 0 auto;
 }
 
