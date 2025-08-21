@@ -10,22 +10,26 @@ header {
 }
 
 .content {
-  width: 160px;
+  width: 90%;
   display: flex;
   background: pink;
   justify-content: space-between;
 }
 
+.movie-content {
+  width: 70%;
+}
+
 .prologue {
   width: 300px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .voice {
-  display: flex;
+  /* display: flex; */
   text-align: left;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 main {
@@ -49,7 +53,7 @@ li:hover {
 
 .side {
   background: pink;
-  width: 400px;
+  width: 30%;
   padding-top: 4px;
   break-inside: avoid;
 }
@@ -58,7 +62,7 @@ li:hover {
   margin: 2em 0;
   border: solid 1px #000;
   background-color: aquamarine;
-  width: 400px;
+  /* width: 400px; */
   display: flex;
 }
 
@@ -83,14 +87,16 @@ p {
 }
 
 .poster {
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
   border: solid 1px #000;
+  object-fit: contain;
+  /* aspect-ratio: 16/9; */
 }
 
-main,.ken {
+.content,.ken {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 h2.maincast {
