@@ -13,7 +13,7 @@ header {
   width: 160px;
   display: flex;
   background: pink;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .prologue {
