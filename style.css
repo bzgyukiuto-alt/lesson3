@@ -9,9 +9,28 @@ header {
   overflow: auto;
 }
 
+.content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-content {
+  width: 70%;
+}
+
+.prologue {
+  width: 300px;
+}
+
+.voice {
+  text-align: left;
+}
+
 main {
   width: 80%;
   margin: 0 auto;
+  background-color: antiquewhite;
 }
 
 li {
@@ -27,31 +46,31 @@ li:hover {
 }
 
 .side {
-  width: 400px;
-  margin: 0 auto;
+  width: 30%;
   padding-top: 4px;
   break-inside: avoid;
 }
 
 .side-content {
   margin: 2em 0;
-  font-weight: bold;
-  border: solid 3px #000;
+  border: solid 1px #000;
   background-color: aquamarine;
+  display: flex;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 }
 
 h2 {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
-  text-align: left;
+  text-align: center;
+  padding: 16%;
 }
 
 p {
@@ -59,12 +78,14 @@ p {
   color: #000;
 }
 
-.voice {
-  text-align: left;
+.poster {
+  border: solid 1px #000;
+  object-fit: contain;
 }
 
-main,.ken {
-  column-count: 2;
+.content,.ken {
+  display: flex;
+  justify-content: space-between;
 }
 
 h2.maincast {
@@ -72,18 +93,23 @@ h2.maincast {
 }
 
 .itoh {
-  height: 600px;
-  width: 400px;
   margin: 0 auto;
+  padding-top: 60px;
+}
+
+.float {
+  display: inline-block;
+  width: 40%;
+  height: 40%;
 }
 
 .floatclear {
-  text-align: left;
+  display: flex;
 }
 
 .robotmedia {
   width: 400px;
-  margin: 0 auto;
+  margin-left: auto;
 }
 
 .robotmedia>img {
@@ -100,3 +126,8 @@ footer {
 small {
   color: #000;
 }
+
+.senden {
+  text-align: center;
+  padding-bottom: 8px;
+} 
