@@ -7,7 +7,7 @@ header {
   background-color: aquamarine;
   font-size: 20px;
   overflow: auto;
-  height: 100px;
+  /* height: 100px; */
 }
 
 .content {
@@ -16,8 +16,12 @@ header {
   justify-content: space-between;
 }
 
-nav {
+/* nav { */
   /* overflow: hidden; */
+/* } */
+
+.menu {
+  border-bottom: 40px;
 }
 
 .movie-content {
@@ -28,14 +32,14 @@ nav {
   width: 300px;
   padding-bottom: 40px;
   padding-right: 40px;
-  border: solid 4px blue;
+  /* border: solid 4px blue; */
 }
 
 .voice {
   text-align: left;
   padding-top: 40px;
   padding-right: 40px;
-  border: solid 4px blue;
+  /* border: solid 4px blue; */
 }
 
 main {
@@ -132,10 +136,10 @@ footer {
   color: white;
 }
 
-p:hover {
-  color: #000;
-  background-color: #fff;
-}
+/* p:hover { */
+  /* color: #000; */
+  /* background-color: #fff; */
+/* } */
 
 small {
   color: #000;
