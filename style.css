@@ -27,12 +27,14 @@ nav {
 .prologue {
   width: 300px;
   padding-bottom: 40px;
+  padding-right: 40px;
   border: solid 4px blue;
 }
 
 .voice {
   text-align: left;
   padding-top: 40px;
+  padding-right: 40px;
   border: solid 4px blue;
 }
 
@@ -130,7 +132,7 @@ footer {
   color: white;
 }
 
-footer:hover {
+p:hover {
   color: #000;
   background-color: #fff;
 }
