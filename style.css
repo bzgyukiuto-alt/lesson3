@@ -21,10 +21,12 @@ header {
 
 .prologue {
   width: 300px;
+  border-width: 4px solid blue;
 }
 
 .voice {
   text-align: left;
+  border-width: 4px solid blue;
 }
 
 main {
@@ -64,7 +66,6 @@ h1 {
 }
 
 h2 {
-  /* font-size: 20px; */
   text-align: left;
 }
 
@@ -113,6 +114,7 @@ h2.maincast {
 
 .robotmedia>img {
   width: 100%;
+  /* max-width: 100%; */
 }
 
 footer {
@@ -127,5 +129,6 @@ small {
 
 .senden {
   text-align: center;
+  width: 30%;
   padding-bottom: 8px;
 } 
