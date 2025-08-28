@@ -22,6 +22,7 @@ header {
 .prologue {
   width: 300px;
   border: solid 4px blue;
+    /* border: solid 4px blue; */
 }
 
 .voice {
