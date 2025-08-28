@@ -21,12 +21,12 @@ header {
 
 .prologue {
   width: 300px;
-  border-width: 4px solid blue;
+  border: solid 4px blue;
 }
 
 .voice {
   text-align: left;
-  border-width: 4px solid blue;
+  border: solid 4px blue;
 }
 
 main {
