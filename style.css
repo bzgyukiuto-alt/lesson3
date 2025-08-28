@@ -64,7 +64,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  /* font-size: 20px; */
   text-align: left;
 }
 
@@ -94,7 +94,7 @@ h2.maincast {
 
 .itoh {
   margin: 0 auto;
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 
 .float {
