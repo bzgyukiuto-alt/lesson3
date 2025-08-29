@@ -106,6 +106,7 @@ p {
 .poster {
   border: solid 1px #000;
   object-fit: contain;
+  padding: 20px;
 }
 
 .content,.ken {
