@@ -27,6 +27,8 @@ nav {
 
 .menu {
   display: flex;
+  width: 320px;
+  justify-content: space-between;
 }
 
 li {
@@ -102,6 +104,7 @@ h2 {
 h3 {
   align-self: center;
   flex-grow: 1;
+  text-align: center;
 }
 
 p {
