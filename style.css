@@ -28,10 +28,15 @@ header {
   width: 70%;
 }
 
+.discription {
+  text-align: left;
+}
+
 .prologue {
   width: 300px;
   padding-bottom: 40px;
   padding-right: 40px;
+  line-height: 1.6;
   /* border: solid 4px blue; */
 }
 
@@ -39,6 +44,7 @@ header {
   text-align: left;
   padding-top: 40px;
   padding-right: 40px;
+  line-height: 1.6;
   /* border: solid 4px blue; */
 }
 
@@ -62,7 +68,7 @@ li:hover {
 
 .side {
   width: 30%;
-  padding-top: 4px;
+  padding-top: 16px;
   break-inside: avoid;
 }
 
@@ -118,10 +124,11 @@ h2.maincast {
 
 .floatclear {
   display: flex;
+  text-align: center;
 }
 
 .robotmedia {
-  width: 400px;
+  /* width: 400px; */
   margin-left: auto;
 }
 
@@ -147,6 +154,6 @@ small {
 
 .senden {
   text-align: center;
-  width: 30%;
+  /* width: 30%; */
   padding-bottom: 8px;
 } 
