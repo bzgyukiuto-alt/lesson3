@@ -32,7 +32,6 @@ nav {
 }
 
 li {
-  /* width: 120px; */
   list-style: none;
   text-align: center;
   float: right;
@@ -61,7 +60,6 @@ li:nth-child(3) {
   padding-bottom: 40px;
   padding-right: 40px;
   line-height: 1.6;
-  /* border: solid 4px blue; */
 }
 
 .voice {
@@ -69,7 +67,6 @@ li:nth-child(3) {
   padding-top: 40px;
   padding-right: 40px;
   line-height: 1.6;
-  /* border: solid 4px blue; */
 }
 
 main {
@@ -81,8 +78,9 @@ main {
 .side {
   width: 30%;
   padding-top: 16px;
-  padding-left: 24px;
   break-inside: avoid;
+  position: relative;
+  left: 60px;
 }
 
 .side-content {
@@ -90,6 +88,7 @@ main {
   border: solid 1px #000;
   background-color: aquamarine;
   display: flex;
+  position: relative;
 }
 
 h1 {
@@ -145,7 +144,7 @@ h2.maincast {
 }
 
 footer {
-  text-align: right;
+  text-align: center;
   background-color: aquamarine;
   color: white;
 }
