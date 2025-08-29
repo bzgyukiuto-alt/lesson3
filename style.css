@@ -7,8 +7,12 @@ header {
   background-color: aquamarine;
   font-size: 20px;
   overflow: auto;
-  /* position: fixed; */
-  /* top: 0; */
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .content {
@@ -17,12 +21,12 @@ header {
   justify-content: space-between;
 }
 
-/* nav { */
-  /* overflow: hidden; */
-/* } */
+nav {
+  align-self: flex-end;
+}
 
 .menu {
-  border-bottom: 40px;
+  display: flex;
 }
 
 .movie-content {
@@ -56,15 +60,20 @@ main {
 }
 
 li {
-  width: 120px;
+  /* width: 120px; */
   list-style: none;
   text-align: center;
   float: right;
+  justify-content: space-between;
 }
 
 li:hover {
   color: #000;
   background-color: #fff;
+}
+
+li:nth-child(3) {
+  padding-right: 0;
 }
 
 .side {
@@ -91,13 +100,8 @@ h2 {
 }
 
 h3 {
-  /* text-align: center; */
-  padding: 16%;
+  align-self: center;
 }
-
-/* h4 {
-  text-align: center;
-} */
 
 p {
   text-align: left;
@@ -105,7 +109,6 @@ p {
 }
 
 .poster {
-  /* border: solid 1px #000; */
   object-fit: contain;
   padding: 20px;
 }
@@ -129,19 +132,13 @@ h2.maincast {
   height: 40%;
 }
 
-/* .floatclear {
-  display: flex;
-  text-align: center;
-} */
 
 .robotmedia {
-  /* width: 400px; */
   margin-left: auto;
 }
 
 .robotmedia>img {
   width: 100%;
-  /* max-width: 100%; */
 }
 
 footer {
@@ -156,6 +153,5 @@ small {
 
 .senden {
   text-align: center;
-  /* width: 30%; */
   padding-bottom: 8px;
 } 
