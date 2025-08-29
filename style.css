@@ -94,6 +94,10 @@ h3 {
   padding: 16%;
 }
 
+h4 {
+  text-align: center;
+}
+
 p {
   text-align: left;
   color: #000;
@@ -123,10 +127,10 @@ h2.maincast {
   height: 40%;
 }
 
-.floatclear {
+/* .floatclear {
   display: flex;
   text-align: center;
-}
+} */
 
 .robotmedia {
   /* width: 400px; */
