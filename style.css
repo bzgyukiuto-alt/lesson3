@@ -6,7 +6,7 @@
 header {
   background-color: aquamarine;
   font-size: 20px;
-  overflow: auto;
+  /* overflow: auto; */
   display: flex;
   height: 100px;
   width: 100%;
@@ -27,6 +27,23 @@ nav {
 
 .menu {
   display: flex;
+}
+
+li {
+  /* width: 120px; */
+  list-style: none;
+  text-align: center;
+  float: right;
+  justify-content: space-between;
+}
+
+li:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+li:nth-child(3) {
+  padding-right: 0;
 }
 
 .movie-content {
@@ -59,23 +76,6 @@ main {
   background-color: antiquewhite;
 }
 
-li {
-  /* width: 120px; */
-  list-style: none;
-  text-align: center;
-  float: right;
-  justify-content: space-between;
-}
-
-li:hover {
-  color: #000;
-  background-color: #fff;
-}
-
-li:nth-child(3) {
-  padding-right: 0;
-}
-
 .side {
   width: 30%;
   padding-top: 16px;
@@ -101,6 +101,7 @@ h2 {
 
 h3 {
   align-self: center;
+  flex-grow: 1;
 }
 
 p {
@@ -126,12 +127,11 @@ h2.maincast {
   margin: 0 auto;
 }
 
-.float {
+.castimg {
   display: inline-block;
   width: 40%;
   height: 40%;
 }
-
 
 .robotmedia {
   margin-left: auto;
