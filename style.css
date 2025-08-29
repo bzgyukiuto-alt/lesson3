@@ -104,7 +104,7 @@ p {
 }
 
 .poster {
-  border: solid 1px #000;
+  /* border: solid 1px #000; */
   object-fit: contain;
   padding: 20px;
 }
@@ -124,8 +124,8 @@ h2.maincast {
 
 .float {
   display: inline-block;
-  width: 40%;
-  height: 40%;
+  /* width: 40%; */
+  /* height: 40%; */
 }
 
 /* .floatclear {
@@ -148,11 +148,6 @@ footer {
   background-color: aquamarine;
   color: white;
 }
-
-/* p:hover { */
-  /* color: #000; */
-  /* background-color: #fff; */
-/* } */
 
 small {
   color: #000;
