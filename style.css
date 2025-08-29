@@ -70,6 +70,7 @@ li:hover {
 .side {
   width: 30%;
   padding-top: 16px;
+  padding-left: 24px;
   break-inside: avoid;
 }
 
