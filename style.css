@@ -16,9 +16,16 @@ header {
 }
 
 .content {
-  width: 90%;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
+}
+
+.ken{
+  display: flex;
+  justify-content: center;
 }
 
 nav {
@@ -48,7 +55,7 @@ li:nth-child(3) {
 }
 
 .movie-content {
-  width: 70%;
+  width: 60%;
 }
 
 .discription {
@@ -77,10 +84,11 @@ main {
 
 .side {
   width: 30%;
-  padding-top: 16px;
+  box-sizing: border-box;
+  padding: 16px 8px 0 8px;
   break-inside: avoid;
   position: relative;
-  left: 60px;
+  /* left: 60px; */
 }
 
 .side-content {
@@ -114,11 +122,6 @@ p {
 .poster {
   object-fit: contain;
   padding: 20px;
-}
-
-.content,.ken {
-  display: flex;
-  justify-content: space-between;
 }
 
 h2.maincast {
